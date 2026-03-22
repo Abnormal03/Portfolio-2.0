@@ -5,7 +5,7 @@ import { FaCodeBranch } from "react-icons/fa6";
 const Header = () => {
     const style = ({ isActive }) => isActive ? "text-primary-dark underline decoration-2 underline-offset-10 transition-all duration-500" : "underline  decoration-transparent"
     return (
-        <div className='flex gap-15 md:gap-0 justify-between items-center py-3 md:p-3 lg:px-10 bg-neutral-dark text-primary-dark text-lg'>
+        <div className='flex gap-15 md:gap-0 justify-between items-center py-3 md:p-3 lg:px-10 bg-neutral-dark text-primary-dark text-lg sticky top-0 z-100'>
             <div className='flex font-bold text-2xl items-center gap-2'>
                 <FaCodeBranch />
                 <p>PORTFOLIO</p>

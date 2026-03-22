@@ -7,7 +7,7 @@ import { TbBrandReactNative } from "react-icons/tb";
 const More = () => {
     const iconStyle = 'flex items-center gap-1 text-lg text-white px-3 py-2 bg-primary-dark/10 rounded-lg w-fit';
     return (
-        <div className='text-white mt-20 z-40 bg-neutral-dark w-full h-fit -mx-3 lg:-mx-10 lg:p-10 px-5'>
+        <div className='text-white mt-20 z-40 bg-neutral-dark w-full h-fit -mx-3 lg:-mx-10 lg:p-10 px-5 animate-reveal delay-100'>
             <div className='lg:flex justify-between'>
                 <div>
                     <p className='text-ternary-dark text-sm'>Expertise</p>
