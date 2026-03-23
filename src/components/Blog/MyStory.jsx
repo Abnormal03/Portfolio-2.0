@@ -2,7 +2,7 @@ import React from 'react'
 
 const MyStory = () => {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-5 '>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-5 animate-swipe delay-100'>
             <div className='bg-primary-dark rounded-sm  h-fit max '>
                 <h1 className='font-bold text-4xl bg-neutral-dark ml-1 pl-2 py-2'>My Story</h1>
             </div>

@@ -1,8 +1,9 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import { FaCodeBranch } from "react-icons/fa6";
 
 const Header = () => {
+    const navigate = useNavigate();
     const style = ({ isActive }) => isActive ? "text-primary-dark underline decoration-2 underline-offset-10 transition-all duration-500" : "underline  decoration-transparent"
     return (
         <div className='flex gap-15 md:gap-0 justify-between items-center py-3 md:p-3 lg:px-10 bg-neutral-dark text-primary-dark text-lg sticky top-0 z-100'>
@@ -16,7 +17,7 @@ const Header = () => {
                 <NavLink className={style} to={'/blog'}>Blog</NavLink>
             </nav>
             <div className='min-w-fit'>
-                <button className='text-neutral-dark bg-linear-to-r from-secondary-dark to-primary-dark px-2 rounded-3xl py-1 hover:shadow-lg shadow-primary-dark hover:scale-105 transition-all duration-1000'>Hire Me</button>
+                <button className='text-neutral-dark bg-linear-to-r from-secondary-dark to-primary-dark px-2 rounded-3xl py-1 hover:shadow-lg shadow-primary-dark hover:scale-105 transition-all duration-1000' onClick={() => navigate('/hireme')}>Hire Me</button>
             </div>
         </div>
 

@@ -10,7 +10,7 @@ const miniProjects = [
         imageLink: "src/assets/ExtensionManager.png",
         description: "This was kinda my first website using React, It is an Extension manager where you can active and diactivate an extension.",
         category: "completed",
-        link: ""
+        link: "https://github.com/Abnormal03/Extension-Manager"
     },
     {
         _id: "2",
@@ -20,7 +20,7 @@ const miniProjects = [
         imageLink: "src/assets/Portfolio.avif",
         description: "I created thsi portfolio while I was learning the essentials. It showcase the projects I did in school.",
         category: "completed",
-        link: ""
+        link: "https://github.com/Abnormal03/Portfolio"
     },
     {
         _id: "3",
@@ -30,7 +30,7 @@ const miniProjects = [
         imageLink: "src/assets/BlogCard.png",
         description: "This was a project challeng by some website. It is just a blog card that shows a reviews of peoples.",
         category: "completed",
-        link: ""
+        link: "https://github.com/Abnormal03/BlogCardPreviews"
     },
     {
         _id: "4",
@@ -40,7 +40,7 @@ const miniProjects = [
         imageLink: "src/assets/FoodDiscovery.avif",
         description: "A backend where I stored a users favorite meals in the mobile app that i will develop with react native.",
         category: "completed",
-        link: ""
+        link: "https://github.com/Abnormal03/foodDiscovery"
     }
 ]
 

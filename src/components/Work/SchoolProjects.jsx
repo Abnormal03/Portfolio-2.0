@@ -10,7 +10,7 @@ const schoolProjects = [
         imageLink: "src/assets/JobForAll.jpg",
         description: "The project was assigned to us by our object oriented programming teacher. It is a JAVA GUI application for Seek and Hire platform.",
         category: "School Project",
-        link: "/"
+        link: ""
     },
     {
         _id: "2",
@@ -20,7 +20,7 @@ const schoolProjects = [
         imageLink: "src/assets/ISR.avif",
         description: "This School project was to demonstrate how the search engines like google works on behind like processing and exracting a keywords.",
         category: "School Project",
-        link: "/"
+        link: ""
     },
     {
         _id: "3",

@@ -7,9 +7,9 @@ const Intro = () => {
         <div className='text-white lg:gap-20 lg:grid grid-cols-2 mt-5 lg:px-5 lg:p-0 items-center px-3'>
             <div className='lg:mx-10'>
                 <div className=' flex items-center gap-2 bg-primary-dark/20 w-fit mb-2 rounded-2xl animate-reveal delay-100'>
-                    <span class="relative flex size-3">
-                        <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-ternary-dark opacity-75"></span>
-                        <span class="relative inline-flex size-3 rounded-full bg-ternary-dark"></span>
+                    <span className="relative flex size-3">
+                        <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-ternary-dark opacity-75"></span>
+                        <span className="relative inline-flex size-3 rounded-full bg-ternary-dark"></span>
                     </span>
                     <p className='text-sm'>AVAILABLE FOR NEW PROJECT</p>
                 </div>

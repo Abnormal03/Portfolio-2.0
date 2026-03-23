@@ -1,8 +1,9 @@
 import React from 'react'
 import { IoLogoJavascript } from "react-icons/io5";
-import { FaNodeJs, FaReact, FaJava } from "react-icons/fa";
+import { FaNodeJs, FaReact, FaJava, FaBattleNet } from "react-icons/fa";
 import { SiCplusplus, SiExpress, SiMongodb } from "react-icons/si";
-import { TbBrandReactNative } from "react-icons/tb";
+import { TbBrandReactNative, TbBrandCSharp } from "react-icons/tb";
+
 
 const More = () => {
     const iconStyle = 'flex items-center gap-1 text-lg text-white px-3 py-2 bg-primary-dark/10 rounded-lg w-fit';
@@ -22,8 +23,11 @@ const More = () => {
                 <p className={iconStyle}> <SiExpress className='text-primary-dark' /> Express</p>
                 <p className={iconStyle}> <SiMongodb className='text-primary-dark' /> MongoDb</p>
                 <p className={iconStyle}><TbBrandReactNative className='text-primary-dark' /> React Native</p>
-                <p className={iconStyle}> <FaJava className='text-primary-dark' /> Java</p>
                 <p className={iconStyle}> <SiCplusplus className='text-primary-dark' /> C++</p>
+                <p className={iconStyle}> <FaJava className='text-primary-dark' /> Java</p>
+                <p className={iconStyle}> <TbBrandCSharp className='text-primary-dark' /> C#</p>
+                <p className={iconStyle}> <FaBattleNet className='text-primary-dark' /> .NET Framework</p>
+
             </div>
         </div>
     )

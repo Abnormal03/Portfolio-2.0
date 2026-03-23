@@ -11,7 +11,7 @@ const selectedProjects = [
         imageLink: "src/assets/TechGear.png",
         description: "This is an e-commerce app specifically a p2p where users can sell thier items to other peer and also they can buy other products.",
         category: "completed",
-        link: ""
+        link: "https://github.com/Abnormal03/TechGear-Backend"
     },
     {
         _id: "2",
@@ -21,7 +21,7 @@ const selectedProjects = [
         imageLink: "src/assets/StockPulse.png",
         description: "This project is under development and it have an essential features like viewing a daily chart, buying and selling stocks and more.",
         category: "Under-Development",
-        link: ""
+        link: "https://github.com/Abnormal03/Stoke-Pulse-backend"
     },
 ]
 const SelectedWorks = () => {
