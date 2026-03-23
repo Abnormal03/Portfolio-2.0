@@ -1,5 +1,8 @@
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa6";
+import jobForAll from '../../assets/JobForAll.jpg'
+import isr from '../../assets/ISR.avif'
+import network from '../../assets/Network.avif'
 
 const schoolProjects = [
     {
@@ -7,7 +10,7 @@ const schoolProjects = [
         type: "Object Oriented Programming",
         year: "2024",
         title: "Job for All",
-        imageLink: "src/assets/JobForAll.jpg",
+        imageLink: jobForAll,
         description: "The project was assigned to us by our object oriented programming teacher. It is a JAVA GUI application for Seek and Hire platform.",
         category: "School Project",
         link: ""
@@ -17,7 +20,7 @@ const schoolProjects = [
         type: "IRS (Python)",
         year: "2024",
         title: "Information Retrieval System",
-        imageLink: "src/assets/ISR.avif",
+        imageLink: isr,
         description: "This School project was to demonstrate how the search engines like google works on behind like processing and exracting a keywords.",
         category: "School Project",
         link: ""
@@ -27,7 +30,7 @@ const schoolProjects = [
         type: "Networking",
         year: "2025",
         title: "Network Design and Implementation",
-        imageLink: "src/assets/Network.avif",
+        imageLink: network,
         description: "This is just to show that I have a contribution on the network design and implementation on a building and campus network located in our university 4k campus.",
         category: "School Project",
         link: ""

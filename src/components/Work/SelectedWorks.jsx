@@ -1,5 +1,7 @@
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa6";
+import techGear from '../../assets/TechGear.png'
+import stockPulse from '../../assets/StockPulse.png'
 
 
 const selectedProjects = [
@@ -8,7 +10,7 @@ const selectedProjects = [
         type: "MERN Stack Development",
         year: "2025",
         title: "Tech Gear - E-Commerce",
-        imageLink: "src/assets/TechGear.png",
+        imageLink: techGear,
         description: "This is an e-commerce app specifically a p2p where users can sell thier items to other peer and also they can buy other products.",
         category: "completed",
         link: "https://github.com/Abnormal03/TechGear-Backend"
@@ -18,7 +20,7 @@ const selectedProjects = [
         type: "MERN Stack Development",
         year: "2026",
         title: "Stock Pulse - Stock Portfolio",
-        imageLink: "src/assets/StockPulse.png",
+        imageLink: stockPulse,
         description: "This project is under development and it have an essential features like viewing a daily chart, buying and selling stocks and more.",
         category: "Under-Development",
         link: "https://github.com/Abnormal03/Stoke-Pulse-backend"

@@ -1,4 +1,5 @@
 import React from 'react'
+import portfolioImage from '../../assets/portfolioImage.png'
 
 const About = () => {
     return (
@@ -9,7 +10,7 @@ const About = () => {
             </div>
 
             <div className='md:m-5 mb-0 lg:p-5'>
-                <img src="src/assets/portfolioImage.png" alt="" className='lg:max-h-200 rounded-lg lg:rounded-4xl mask-[linear-gradient(to_bottom,black_90%,transparent_100%)]' />
+                <img src={portfolioImage} alt="" className='lg:max-h-200 rounded-lg lg:rounded-4xl mask-[linear-gradient(to_bottom,black_90%,transparent_100%)]' />
             </div>
         </div>
     )

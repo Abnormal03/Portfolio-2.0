@@ -68,7 +68,7 @@ portfolio/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/Abnormal03/Portfolio-2.0.git
    cd portfolio
    ```
 
@@ -158,10 +158,6 @@ The portfolio uses a custom color scheme defined in `src/App.css`:
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📞 Contact
 

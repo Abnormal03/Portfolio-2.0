@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import portfolioImage from '../../assets/portfolioImage.png'
 
 const Intro = () => {
     const navigate = useNavigate();
@@ -21,7 +22,7 @@ const Intro = () => {
                 </div>
             </div>
             <div className='animate-reveal delay-150'>
-                <img src="src/assets/portfolioImage.png" alt="" className='mt-5 rounded-t-3xl lg:h-150 mask-[linear-gradient(to_bottom,black_90%,transparent_100%)]' />
+                <img src={portfolioImage} alt="" className='mt-5 rounded-t-3xl lg:h-150 mask-[linear-gradient(to_bottom,black_90%,transparent_100%)]' />
             </div>
         </div>
     )

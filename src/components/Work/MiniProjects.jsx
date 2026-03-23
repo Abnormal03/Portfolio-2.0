@@ -1,5 +1,9 @@
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa6";
+import extensionManager from '../../assets/ExtensionManager.png'
+import portfolioImage from '../../assets/Portfolio.avif'
+import blogCard from '../../assets/BlogCard.png'
+import foodDiscovery from '../../assets/FoodDiscovery.avif'
 
 const miniProjects = [
     {
@@ -7,7 +11,7 @@ const miniProjects = [
         type: "Web Development (React)",
         year: "2024",
         title: "Extension Manager",
-        imageLink: "src/assets/ExtensionManager.png",
+        imageLink: extensionManager,
         description: "This was kinda my first website using React, It is an Extension manager where you can active and diactivate an extension.",
         category: "completed",
         link: "https://github.com/Abnormal03/Extension-Manager"
@@ -17,7 +21,7 @@ const miniProjects = [
         type: "Web Development",
         year: "2024",
         title: "Personal Portfolio 1.0",
-        imageLink: "src/assets/Portfolio.avif",
+        imageLink: portfolioImage,
         description: "I created thsi portfolio while I was learning the essentials. It showcase the projects I did in school.",
         category: "completed",
         link: "https://github.com/Abnormal03/Portfolio"
@@ -27,7 +31,7 @@ const miniProjects = [
         type: "Web Development",
         year: "2023",
         title: "Blog Card - Preview",
-        imageLink: "src/assets/BlogCard.png",
+        imageLink: blogCard,
         description: "This was a project challeng by some website. It is just a blog card that shows a reviews of peoples.",
         category: "completed",
         link: "https://github.com/Abnormal03/BlogCardPreviews"
@@ -37,7 +41,7 @@ const miniProjects = [
         type: "Backend Development (API)",
         year: "2025",
         title: "Food Discovery",
-        imageLink: "src/assets/FoodDiscovery.avif",
+        imageLink: foodDiscovery,
         description: "A backend where I stored a users favorite meals in the mobile app that i will develop with react native.",
         category: "completed",
         link: "https://github.com/Abnormal03/foodDiscovery"
