@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with React and Vite, showcasing my 
 
 ## 🚀 Live Demo
 
-[View Portfolio](https://your-portfolio-url.com) *(Replace with your actual deployment URL)*
+[View Portfolio](https://abrham-teshome.vercel.app/)
 
 ## ✨ Features
 
