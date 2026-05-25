@@ -2,9 +2,30 @@ import React from 'react'
 import { FaArrowRight } from "react-icons/fa6";
 import techGear from '../../assets/TechGear.png'
 import stockPulse from '../../assets/StockPulse.png'
+import shortTerm from '../../assets/Short-Term.jpg'
 
 
 const selectedProjects = [
+    {
+        _id: "1",
+        type: "PERN Stack Development",
+        year: "2026",
+        title: "Short-Term Rental Platfom for Ethiopia",
+        imageLink: shortTerm,
+        description: "Initially the idea comes from a clone for AirBNB, then I was thinking if we can tailor it specifically for Ethiopia with multi-local languages and local payment method integrations.",
+        category: "Under-Development",
+        link: "https://github.com/Abnormal03/Short-Term-Rental-Platform"
+    },
+    {
+        _id: "2",
+        type: "MERN Stack Development",
+        year: "2026",
+        title: "Stock Pulse - Stock Portfolio",
+        imageLink: stockPulse,
+        description: "This project is under development and it have an essential features like viewing a daily chart, buying and selling stocks and more.",
+        category: "v1 - completed",
+        link: "https://github.com/Abnormal03/Stoke-Pulse-backend"
+    },
     {
         _id: "1",
         type: "MERN Stack Development",
@@ -14,16 +35,6 @@ const selectedProjects = [
         description: "This is an e-commerce app specifically a p2p where users can sell thier items to other peer and also they can buy other products.",
         category: "completed",
         link: "https://github.com/Abnormal03/TechGear-Backend"
-    },
-    {
-        _id: "2",
-        type: "MERN Stack Development",
-        year: "2026",
-        title: "Stock Pulse - Stock Portfolio",
-        imageLink: stockPulse,
-        description: "This project is under development and it have an essential features like viewing a daily chart, buying and selling stocks and more.",
-        category: "Under-Development",
-        link: "https://github.com/Abnormal03/Stoke-Pulse-backend"
     },
 ]
 const SelectedWorks = () => {
@@ -37,7 +48,7 @@ const SelectedWorks = () => {
                         <p className='flex items-center gap-1 text-sm text-ternary-dark text-center'>{project.type}<span className='w-1 h-1 bg-ternary-dark rounded-sm'></span> 2025</p>
                         <h1 className='font-bold text-2xl'>{project.title}</h1>
                         <p className='text-gray-300'>{project.description}</p>
-                        <a href={project.link} target='_blank' className='flex items-center gap-3 w-fit px-2 rounded-lg py-2 text-ternary-dark mt-2 hover:bg-ternary-dark hover:text-neutral-dark transition-all duration-600' >View Project  <FaArrowRight /></a>
+                        <a href={project.link} target='_blank' className='flex items-center gap-3 w-fit px-2 rounded-lg py-2 text-ternary-dark mt-2 hover:bg-ternary-dark hover:text-neutral-dark transition-all duration-600' >View Project {"[Github]"}  <FaArrowRight /></a>
 
                         <p className={`absolute top-5 right-2 ${project.category === "Under-Development" ? "bg-primary-dark/50" : "bg-ternary-dark/50"}  px-3 rounded-2xl`}>{project.category}</p>
                     </div>
